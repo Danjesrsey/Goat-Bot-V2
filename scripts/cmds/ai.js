@@ -29,7 +29,9 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("Bonjour, comment puis-je vous aidez ? 💖");
+        await message.reply("Bonjour, comment puis-je vous aidez ? 
+            💖 
+✦𝐌𝐚𝐝𝐞 𝐛𝐲 ☆𝐌𝐥𝐝☆𝐄𝐦𝐦𝐚𝐧𝐮𝐞𝐥✦");
         return;
       }
 
