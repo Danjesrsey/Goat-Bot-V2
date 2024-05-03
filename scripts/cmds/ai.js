@@ -1,9 +1,11 @@
-const axios = require('axios');
+. cmd install ai.js const axios = require('axios');
 
 const Prefixes = [
-  '/ai', 
-  'titus',
-  'nemo',
+  '/ai',
+  'Mélanie',
+  'tamamo',
+  '+ai',
+  'tamamo',
   'ai',
   'ask',
 ];
@@ -29,9 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("Bonjour, comment puis-je vous aidez ? 
-            💖 
-✦𝐌𝐚𝐝𝐞 𝐛𝐲 ☆𝐌𝐥𝐝☆𝐄𝐦𝐦𝐚𝐧𝐮𝐞𝐥✦");
+        await message.reply("❃ 𝒔𝒂𝒍𝒖𝒕 👋 ,  𝒋𝒆 𝒔𝒖𝒊𝒔 𝑳𝑨𝑼𝑹𝑰𝑨𝑵𝑬 😇 !! 𝑷𝒐𝒔𝒆𝒛 𝒎𝒐𝒊 𝒗𝒐𝒕𝒓𝒆 𝒒𝒖𝒆𝒔𝒕𝒊𝒐𝒏 𝒆𝒕 𝒋𝒆 𝒗𝒐𝒖𝒔 𝒓𝒆́𝒑𝒐𝒏𝒅𝒓𝒂𝒊𝒔 (◕‿◕) ❃. ");
         return;
       }
 
@@ -40,9 +40,13 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply(answer);
+    await message.reply({ body: ` ❃ 𝑳𝑨𝑼𝑹𝑰𝑨𝑵𝑬☆ 𝑺𝑻𝑨𝑻 ❃
+━━━━━━━━━━━━━        
+${answer}
+━━━━━━━━━━━━━  ✨ 𝑴𝑳𝑫☆𝑬𝑴𝑴𝑨𝑵𝑼𝑬𝑳✨`,
+});
 
-    } catch (error) {
+   } catch (error) {
       console.error("Error:", error.message);
     }
   }
