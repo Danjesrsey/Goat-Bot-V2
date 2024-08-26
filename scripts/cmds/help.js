@@ -39,24 +39,24 @@ module.exports = {
 
 	langs: {
 		vi: {
-			help: 🦄 𝑳𝑨𝑼𝑹𝑰𝑨𝑵𝑬☆𝑺𝑻𝑨𝑻 🦄
-			            "╭─────────────🦄"
+			help: 🕴️ 𝑳𝑨𝑼𝑹𝑰𝑨𝑵𝑬☆𝑺𝑻𝑨𝑻 🕴️
+			            "╭─────────────🕴️"
 				+ "\n%1"
-				+ "\n├─────🦄"
+				+ "\n├─────🕴️"
 				+ "\n│ Trang [ %2/%3 ]"
 				+ "\n│ Hiện tại bot có %4 lệnh có thể sử dụng"
 				+ "\n│ » Gõ %5help <số trang> để xem danh sách các lệnh"
 				+ "\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó"
-				+ "\n├────────🦄"
+				+ "\n├────────🕴️"
 				+ "\n│ %6"
-				+ "\n╰─────────────🦄",
-			help2: "%1├───────🦄"
+				+ "\n╰─────────────🕴️",
+			help2: "%1├───────🕴️"
 				+ "\n│ » Hiện tại bot có %2 lệnh có thể sử dụng"
 				+ "\n│ » Gõ %3help <tên lệnh> để xem chi tiết cách sử dụng lệnh đó"
 				+ "\n│ %4"
-				+ "\n╰─────────────🦄",
+				+ "\n╰─────────────🕴️",
 			commandNotFound: "Lệnh \"%1\" không tồn tại",
-			getInfoCommand: "╭── NAME ────🦄"
+			getInfoCommand: "╭── NAME ────🕴️"
 				+ "\n│ %1"
 				+ "\n├── INFO"
 				+ "\n│ Mô tả: %2"
@@ -71,8 +71,8 @@ module.exports = {
 				+ "\n├── NOTES"
 				+ "\n│ Nội dung bên trong <XXXXX> là có thể thay đổi"
 				+ "\n│ Nội dung bên trong [a|b|c] là a hoặc b hoặc c"
-				+ "\n╰──────🦄",
-			onlyInfo: "╭── INFO ────🦄"
+				+ "\n╰──────🕴️",
+			onlyInfo: "╭── INFO ────🕴️"
 				+ "\n│ Tên lệnh: %1"
 				+ "\n│ Mô tả: %2"
 				+ "\n│ Các tên gọi khác: %3"
@@ -81,17 +81,17 @@ module.exports = {
 				+ "\n│ Role: %6"
 				+ "\n│ Thời gian mỗi lần dùng lệnh: %7s"
 				+ "\n│ Author: %8"
-				+ "\n╰─────────────🦄",
-			onlyUsage: "╭── USAGE ────🦄"
+				+ "\n╰─────────────🕴️",
+			onlyUsage: "╭── USAGE ────🕴️"
 				+ "\n│%1"
-				+ "\n╰─────────────🦄",
-			onlyAlias: "╭── ALIAS ────🦄"
+				+ "\n╰─────────────🕴️",
+			onlyAlias: "╭── ALIAS ────🕴️"
 				+ "\n│ Các tên gọi khác: %1"
 				+ "\n│ Các tên gọi khác trong nhóm bạn: %2"
-				+ "\n╰─────────────🦄",
-			onlyRole: "╭── ROLE ────🦄"
+				+ "\n╰─────────────🕴️",
+			onlyRole: "╭── ROLE ────🕴️"
 				+ "\n│%1"
-				+ "\n╰─────────────🦄",
+				+ "\n╰─────────────🕴️",
 			doNotHave: "Không có",
 			roleText0: "0 (Tất cả người dùng)",
 			roleText1: "1 (Quản trị viên nhóm)",
@@ -101,23 +101,23 @@ module.exports = {
 			pageNotFound: "Trang %1 không tồn tại"
 		},
 		en: {
-			help: "╭─────────────🦄"
+			help: "╭─────────────🕴️"
 				+ "\n%1"
-				+ "\n├─────🦄"
+				+ "\n├─────🕴️"
 				+ "\n│ Page [ %2/%3 ]"
-				+ "\n│ 𝐀𝐜𝐭𝐮𝐞𝐥𝐥𝐞𝐦𝐞𝐧𝐭, 🦄𝑳𝑨𝑼𝑹𝑰𝑨𝑵𝑬🦄 𝒂 %4 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐚𝐜𝐭𝐢𝐯𝐞"
+				+ "\n│ 𝐀𝐜𝐭𝐮𝐞𝐥𝐥𝐞𝐦𝐞𝐧𝐭, 🕴️𝑳𝑨𝑼𝑹𝑰𝑨𝑵𝑬🕴️ 𝒂 %4 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐚𝐜𝐭𝐢𝐯𝐞"
 				+ "\n│ » 𝐓𝐚𝐩𝐞𝐳 %5help <page> 𝐩𝐨𝐮𝐫 𝐯𝐨𝐢𝐫 𝐥𝐚 𝐥𝐢𝐬𝐭𝐞📃 𝐝𝐞𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐝𝐢𝐬𝐩𝐨𝐧𝐢𝐛𝐥𝐞"
 				+ "\n│ » 𝐓𝐚𝐩𝐞𝐳 %5help 𝐩𝐨𝐮𝐫 𝐯𝐨𝐢𝐫 𝐜𝐨𝐦𝐦𝐞𝐧𝐭 𝐮𝐭𝐢𝐥𝐢𝐬𝐞𝐫 𝐥𝐞𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐞𝐧 𝐝𝐞𝐭𝐚𝐢𝐥𝐬"
-				+ "\n├────────🦄"
+				+ "\n├────────🕴️"
 				+ "\n│ %6"
-				+ "\n╰─────────────🦄",
-			help2: "%1├───────🦄"
+				+ "\n╰─────────────🕴️",
+			help2: "%1├───────🕴️"
 				+ "\n│ » Currently, the bot has %2 commands that can be used"
 				+ "\n│ » Type %3help <command name> to view the details of how to use that command"
 				+ "\n│ %4"
-				+ "\n╰─────────────🦄",
+				+ "\n╰─────────────🕴️",
 			commandNotFound: "Command \"%1\" does not exist",
-			getInfoCommand: "╭── NAME ────🦄"
+			getInfoCommand: "╭── NAME ────🕴️"
 				+ "\n│ %1"
 				+ "\n├── INFO"
 				+ "\n│ Description: %2"
@@ -132,8 +132,8 @@ module.exports = {
 				+ "\n├── NOTES"
 				+ "\n│ The content inside <XXXXX> can be changed"
 				+ "\n│ The content inside [a|b|c] is a or b or c"
-				+ "\n╰──────🦄",
-			onlyInfo: "╭── INFO ────🦄"
+				+ "\n╰──────🕴️",
+			onlyInfo: "╭── INFO ────🕴️"
 				+ "\n│ Command name: %1"
 				+ "\n│ Description: %2"
 				+ "\n│ Other names: %3"
@@ -142,17 +142,17 @@ module.exports = {
 				+ "\n│ Role: %6"
 				+ "\n│ Time per command: %7s"
 				+ "\n│ Author: %8"
-				+ "\n╰─────────────🦄",
-			onlyUsage: "╭── USAGE ────🦄"
+				+ "\n╰─────────────🕴️",
+			onlyUsage: "╭── USAGE ────🕴️"
 				+ "\n│%1"
-				+ "\n╰─────────────🦄",
-			onlyAlias: "╭── ALIAS ────🦄"
+				+ "\n╰─────────────🕴️",
+			onlyAlias: "╭── ALIAS ────🕴️"
 				+ "\n│ Other names: %1"
 				+ "\n│ Other names in your group: %2"
-				+ "\n╰─────────────🦄",
-			onlyRole: "╭── ROLE ────🦄"
+				+ "\n╰─────────────🕴️",
+			onlyRole: "╭── ROLE ────🕴️"
 				+ "\n│%1"
-				+ "\n╰─────────────🦄",
+				+ "\n╰─────────────🕴️",
 			doNotHave: "Do not have",
 			roleText0: "0 (All users)",
 			roleText1: "1 (Group administrators)",
