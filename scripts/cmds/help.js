@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ 🦄 𝐌𝐋𝐃 𝐄𝐌𝐌𝐀𝐍𝐔𝐄𝐋 🦄 ]";
+const doNotDelete = "[ 🦄 𝐃𝐀𝐍☆𝐉𝐄𝐑𝐒𝐄𝐘 🦄 ]";
 /**
 * @author NTKhang
 * @author: do not delete it
@@ -39,7 +39,7 @@ module.exports = {
 
 	langs: {
 		vi: {
-			help: 🦄 𝑳𝑨𝑼𝑹𝑰𝑨𝑵𝑬☆𝑺𝑻𝑨𝑻 🦄
+			help: 🦄 𝑫𝑨𝑵 ☆ 𝑺𝑻𝑨𝑻 🦄
 			            "╭─────────────🦄"
 				+ "\n%1"
 				+ "\n├─────🦄"
